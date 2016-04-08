@@ -12,13 +12,13 @@ filter_data <- function(weekdays = c(1,7), months = c(1,12), hours=c(9,20)) {
   print(length((filtered)))
   if(hours[1] == hours[2]) {
     for(i in 1:length(filtered)){
-      suma <- suma + dane_all[[i]][,(hours[1]-5)]
+      suma <- suma + filtered[[i]][,(hours[1]-5)]
     }
     
   }
   else {
     for(i in 1:length(filtered)){
-      suma <- suma + rowSums(dane_all[[i]][,(hours[1]-5):(hours[2]-5)])
+      suma <- suma + rowSums(filtered[[i]][,(hours[1]-5):(hours[2]-5)])
     }
   }
   wynik <- cbind(dane_all[[1]][,2:3],suma)
