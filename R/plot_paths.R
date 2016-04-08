@@ -2,6 +2,7 @@
 #' @export
 
 plot_paths <- function(data, slownik, alpha_mod = 1){
+  rownames(slownik) <- slownik$nr
   data %>% filter(from != "---" & to != "---") -> data
   alpha <- data$total / max(data$total)
   pocz <- slownik[data$from, 4:5]
