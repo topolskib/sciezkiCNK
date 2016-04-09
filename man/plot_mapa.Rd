@@ -4,14 +4,14 @@
 \alias{plot_mapa}
 \title{Funkcja służy do rysowania planu wystawy Regeneracja}
 \usage{
-plot_mapa(sciezka, obram = FALSE, tytul = "Plan wystawy REGENERACJA")
+plot_mapa(png, obram = FALSE, tytul = "Plan wystawy REGENERACJA")
 }
 \arguments{
-\item{sciezka}{ścieżka dostępu do pliku .png z planem wystawy}
-
 \item{obram}{czy narysować prostokąt wokół planu (domyślnie FALSE)}
 
 \item{tytul}{tytuł mapy (domyślnie "Plan wystawy REGENERACJA")}
+
+\item{sciezka}{ścieżka dostępu do pliku .png z planem wystawy}
 }
 \value{
 zwraca 2 - elem. wektor liczbowy z rozmiarami obrazu, którego użyliśmy
