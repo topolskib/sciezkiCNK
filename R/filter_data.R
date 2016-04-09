@@ -1,4 +1,4 @@
-#' Funkcja służy do filtrowania danych
+#' Funkcja służy do filtrowania danych po miesiącach, dniach tygodnia i godzinach.
 #' 
 #' @param weekdays Wektor zawierający numeryczne wartości dni tygodnia,
 #' które chcemy uwzględnić.

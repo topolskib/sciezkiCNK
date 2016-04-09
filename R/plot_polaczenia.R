@@ -16,7 +16,7 @@
 plot_polaczenia <- function(dane_pocz, dane_kon, wartosci, col="dodgerblue3",lwd = 3.5 ,rozmiary = c(1018, 886)){
    
    doRGB <- as.numeric(col2rgb(col))/255
-   alfy <- wartosci/max(wartosci)
+   alfy <- wartosci
    segments(x0= dane_pocz$x, y0= rozmiary[2] - dane_pocz$y, x1= dane_kon$x, y1= rozmiary[2] - dane_kon$y, 
             lwd=lwd, col = rgb(doRGB[1],doRGB[2],doRGB[3],alpha=alfy))
    
