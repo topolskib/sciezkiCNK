@@ -8,10 +8,10 @@
 #' 
 #' @export
 
-plot_mapa <- function(sciezka, obram = FALSE, tytul = "Plan wystawy REGENERACJA" )
+plot_mapa <- function(png,  obram = FALSE, tytul = "Plan wystawy REGENERACJA" )
 {
    require('png')
-   png = readPNG(sciezka, native=T) 
+  
    res = c(dim(png)[2] , dim(png)[1])
    plot(1,1,xlim=c(0,res[1]),ylim=c(0,res[2]),asp=1,type='n',xaxs='i',yaxs='i',xaxt='n',yaxt='n',xlab='',ylab='',bty='n',
         main=tytul)
