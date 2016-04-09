@@ -7,11 +7,11 @@
 #' @export
 
 
-plot_paths <- function(data, slownik){
+plot_paths <- function(data, slownik, col){
    rownames(slownik) <- slownik$nr
    data %>% filter(from != "---" & to != "---") -> data
    pocz <- slownik[data$from, 4:5]
    kon <- slownik[data$to, 4:5]
    print(head(pocz))
-   plot_polaczenia(pocz, kon, wartosci = data$total)
+   plot_polaczenia(pocz, kon, wartosci = data$total, col = col)
 }
