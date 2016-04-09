@@ -1,4 +1,14 @@
 #' Funkcja służy do filtrowania danych
+#' 
+#' @param weekdays Wektor zawierający numeryczne wartości dni tygodnia,
+#' które chcemy uwzględnić.
+#' 
+#' @param months Wektor zawierający numeryczne wartości miesięcy,
+#' które chcemy uwzględnić.
+#' 
+#' @param hours Wektor dwuelementowy zawierający informacje o przedziale godzin, który chcemy uwzględnić
+#' 
+#' 
 #' @export
 
 filter_data <- function(weekdays = c(1,7), months = c(1,12), hours=c(9,20)) {  
