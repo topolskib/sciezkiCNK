@@ -6,6 +6,12 @@
 \usage{
 plot_paths(data, slownik)
 }
+\arguments{
+\item{data}{ramka danych z kolumnami tekstowymi from i to określającymi urządzenia początkowe i końcowe oraz numeryczną 
+kolumną total}
+
+\item{slownik}{ramka danych z kolumnami x i y określającymi współrzedne urządzeń i kolumną nr określającą numer urządzenia}
+}
 \description{
 Funkcja służy do rysowania scieżek z danych
 }

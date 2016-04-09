@@ -2,12 +2,25 @@
 % Please edit documentation in R/plot_polaczenia.R
 \name{plot_polaczenia}
 \alias{plot_polaczenia}
-\title{Funkcja służy do rysowania polaczen}
+\title{Funkcja służy do rysowania połączeń między punktami}
 \usage{
-plot_polaczenia(dane_pocz, dane_kon, wartosci = 0, col = "black",
-  alpha = 0.2, lwd = 2, rozmiary = c(1018, 886))
+plot_polaczenia(dane_pocz, dane_kon, wartosci, col = "dodgerblue3",
+  lwd = 3.5, rozmiary = c(1018, 886))
+}
+\arguments{
+\item{dane_pocz}{ramka danych z kolumnami x i y odpowiadającymi współrzędnym początkowych urządzeń}
+
+\item{dane_kon}{ramka danych z kolumnami x i y odpowiadającymi współrzędnym końcowych urządzeń}
+
+\item{wartosci}{wektor o długości równej długości powyższych ramek danych z liczbami połączeń}
+
+\item{col}{kolor linii}
+
+\item{lwd}{grubość linii}
+
+\item{rozmiary}{rozmiary planu, na który nanosimy punkty}
 }
 \description{
-Funkcja służy do rysowania polaczen
+Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa)
 }
 

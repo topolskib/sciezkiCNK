@@ -2,12 +2,23 @@
 % Please edit documentation in R/plot_urzadz.R
 \name{plot_urzadz}
 \alias{plot_urzadz}
-\title{Funkcja służy do rysowania urzadzen}
+\title{Funkcja służy do nanoszenia na mapę punktów odpowiadających urządzeniom}
 \usage{
-plot_urzadz(dane_urz, pch = 19, cex = 0.5, col = "black",
+plot_urzadz(dane_urz, pch = 19, cex = 2.5, col = "firebrick2",
   rozmiary = c(1018, 886))
 }
+\arguments{
+\item{dane_urz}{ramka danych z kolumnami x i y odpowiadającymi współrzędnym urządzeń}
+
+\item{pch}{rodzaj znacznika urządzeń}
+
+\item{cex}{wielkość znacznika}
+
+\item{col}{kolor znacznika}
+
+\item{rozmiary}{rozmiary planu, na który nanosimy punkty}
+}
 \description{
-Funkcja służy do rysowania urzadzen
+Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa)
 }
 

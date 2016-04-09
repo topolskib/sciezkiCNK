@@ -2,11 +2,21 @@
 % Please edit documentation in R/plot_mapa.R
 \name{plot_mapa}
 \alias{plot_mapa}
-\title{Funkcja służy do rysowania mapy}
+\title{Funkcja służy do rysowania planu wystawy Regeneracja}
 \usage{
-plot_mapa(png, obram = FALSE)
+plot_mapa(sciezka, obram = FALSE, tytul = "Plan wystawy REGENERACJA")
+}
+\arguments{
+\item{sciezka}{ścieżka dostępu do pliku .png z planem wystawy}
+
+\item{obram}{czy narysować prostokąt wokół planu (domyślnie FALSE)}
+
+\item{tytul}{tytuł mapy (domyślnie "Plan wystawy REGENERACJA")}
+}
+\value{
+zwraca 2 - elem. wektor liczbowy z rozmiarami obrazu, którego użyliśmy
 }
 \description{
-Funkcja służy do rysowania mapy
+Funkcja służy do rysowania planu wystawy Regeneracja
 }
 

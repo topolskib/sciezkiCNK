@@ -2,7 +2,11 @@
 
 export(filter_data)
 export(plot_etykiety)
+export(plot_etykiety_nr)
+export(plot_liczby)
 export(plot_mapa)
 export(plot_paths)
+export(plot_paths_graph)
 export(plot_polaczenia)
+export(plot_polaczenia_graph)
 export(plot_urzadz)

@@ -2,12 +2,24 @@
 % Please edit documentation in R/plot_etykiety.R
 \name{plot_etykiety}
 \alias{plot_etykiety}
-\title{Funkcja służy do rysowania etykiet}
+\title{Funkcja służy do rysowania etykiet z pełnymi nazwami urządzeń}
 \usage{
-plot_etykiety(dane_urz, przes = c(0, 0), cex = 0.5, col = "black",
-  rozmiary = c(1018, 886))
+plot_etykiety(dane_urz, cex = 0.7, col = "black", rozmiary = c(1018, 886),
+  przes = c(-40, 40))
+}
+\arguments{
+\item{dane_urz}{ramka danych z kolumnami x i y odpowiadającymi współrzędnym urządzeń oraz kolumną nazwa - opisem urządzenia}
+
+\item{cex}{wielkość tekstu etykiet}
+
+\item{col}{kolor tekstu etykiet}
+
+\item{rozmiary}{rozmiary planu, na który nanosimy punkty}
+
+\item{przes}{2 - el. wektor przesunięcia etykiet, dodatnie wartości oznaczają odpowiednio: w lewo, w dół, ujemne prawo, góra
+domyślnie etykiety są ustawione na środku linii łączącej punkty}
 }
 \description{
-Funkcja służy do rysowania etykiet
+Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa)
 }
 
