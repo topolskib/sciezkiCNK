@@ -2,6 +2,7 @@
 
 export(filter_data)
 export(filter_data_byday)
+export(findClosest)
 export(plot_etykiety)
 export(plot_etykiety_nr)
 export(plot_liczby)

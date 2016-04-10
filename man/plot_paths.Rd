@@ -4,7 +4,7 @@
 \alias{plot_paths}
 \title{Funkcja służy do rysowania scieżek z danych}
 \usage{
-plot_paths(data, slownik)
+plot_paths(data, slownik, col)
 }
 \arguments{
 \item{data}{ramka danych z kolumnami tekstowymi from i to określającymi urządzenia początkowe i końcowe oraz numeryczną 
