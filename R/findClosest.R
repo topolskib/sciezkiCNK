@@ -7,6 +7,7 @@
 #' 
 #' @export
 #' 
+
 findClosest <- function(coords, slownik){
   dists <- as.matrix(dist(rbind(coords,slownik[,4:5])))[-1,1]
   stacja <- which.min(dists)
@@ -14,5 +15,3 @@ findClosest <- function(coords, slownik){
   else return(c("Numer stacji: ---", "Nazwa stacji: ---" ))
 }
 
-
-findClosest(c(150,150), slownik_urz)
