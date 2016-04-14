@@ -1,8 +1,10 @@
 Package: sciezkiCNK
-Title: What the Package Does (one line, title case)
+Title: Pakiet s³u¿y do wizualizacji poruszania siê u¿ytkowników po wystawie ReGeneracja.
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: c(person("Ewa", "Baranowska", role = c("aut")),
+		person("Zosia", "Rogala", role = c("aut")),
+		person("Bartosz", "Topolski", email = "bartek.topolski@gmail.com", role = c("aut", "cre")))
+Description: Pakiet zawiera funkcje s³u¿¹ce formatowaniu i wizualizacji danych dotycz¹cych poruszania siê u¿ytkowników po wystawie ReGeneracja.
 Depends:
     R (>= 3.2.2)
 License: What license is it under?
