@@ -1,3 +1,4 @@
+Encoding: latin1
 Package: sciezkiCNK
 Title: Pakiet s³u¿y do wizualizacji poruszania siê u¿ytkowników po wystawie ReGeneracja.
 Version: 0.0.0.9000
@@ -10,3 +11,4 @@ Depends:
 License: What license is it under?
 LazyData: true
 RoxygenNote: 5.0.1
+Encoding: latin1
