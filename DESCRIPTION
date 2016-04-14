@@ -1,5 +1,5 @@
 Package: sciezkiCNK
-Title: Pakiet sluzy do wizualizacji poruszania siê uzytkownikow po wystawie ReGeneracja.
+Title: Pakiet sluzy do wizualizacji poruszania sie uzytkownikow po wystawie ReGeneracja.
 Version: 0.0.0.9000
 Authors@R: c(person("Ewa", "Baranowska", role = c("aut")),
 		person("Zosia", "Rogala", role = c("aut")),
@@ -10,4 +10,3 @@ Depends:
 License: What license is it under?
 LazyData: true
 RoxygenNote: 5.0.1
-Encoding: latin1
