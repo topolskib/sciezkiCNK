@@ -8,10 +8,10 @@
 #' 
 #' @export
 
-sciezka <- function(filtered_data, n) {
+sciezka <- function(filtered_data, n, first)  {
   
   wynik <- character(n)
-  wynik[1] <- "---"
+  wynik[1] <- first
   for(i in 1:(n-1)) {
     tpm <- filtered_data %>% filter(from == wynik[i], !(to %in% wynik[1:n]))
     wynik[i+1] <- as.character(tpm[which.max(tpm$total),2])

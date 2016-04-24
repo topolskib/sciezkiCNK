@@ -4,7 +4,7 @@
 \alias{sciezka}
 \title{Funkcja służy do wyznaczani najbardziej popularnej scieżki}
 \usage{
-sciezka(filtered_data, n)
+sciezka(filtered_data, n, first)
 }
 \arguments{
 \item{filtered_data}{Ramka danych powstała w wyniku użycia funkcji filter_data}
