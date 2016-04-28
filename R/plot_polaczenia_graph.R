@@ -1,4 +1,6 @@
-#' Funkcja służy do rysowania połączeń między danymi za pomocą dostosowanych strzałek
+#' @title Rysowanie połączeń (igraph) 
+#' 
+#' Funkcja służy do rysowania połączeń między danymi za pomocą dostosowanych strzałek z pakietu `igraph`.
 #' 
 #' @param data ramka danych o trzech kolumnach (from, to i total)
 #' @param rozmiary = rozmiary mapy, na której rsyujemy 

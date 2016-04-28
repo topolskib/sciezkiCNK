@@ -2,20 +2,25 @@
 % Please edit documentation in R/filter_data.R
 \name{filter_data}
 \alias{filter_data}
-\title{Funkcja służy do filtrowania danych po miesiącach, dniach tygodnia i godzinach.}
+\title{Selekcja danych}
 \usage{
 filter_data(weekdays = c(1, 7), months = c(1, 12), hours = c(9, 20))
 }
 \arguments{
 \item{weekdays}{Wektor zawierający numeryczne wartości dni tygodnia,
-które chcemy uwzględnić.}
+które chcemy uwzględnić. Składa się z krańców żądanego zakresu.}
 
 \item{months}{Wektor zawierający numeryczne wartości miesięcy,
-które chcemy uwzględnić.}
+które chcemy uwzględnić. Składa się z krańców żądanego zakresu.}
 
-\item{hours}{Wektor dwuelementowy zawierający informacje o przedziale godzin, który chcemy uwzględnić}
+\item{hours}{Wektor dwuelementowy zawierający informacje o przedziale godzin, który chcemy uwzględnić. 
+Składa się z krańców żądanego zakresu.}
+}
+\value{
+Funkcja zwraca ramkę danych powstałą po agregacji danych według argumentów wejściowych.
 }
 \description{
-Funkcja służy do filtrowania danych po miesiącach, dniach tygodnia i godzinach.
+Funkcja służy do filtrowania danych po miesiącach, dniach tygodnia i godzinach. Operuje ona bezpośrednio na obiekcie dane_all znajdującym
+się w pakiecie.
 }
 

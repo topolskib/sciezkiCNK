@@ -1,9 +1,15 @@
-#' Funkcja zwraca informacje o stacji znajdującej się najbliżej kursora
+#' @title Eksponat najbliższy aktualnej pozycji kursora
+#' 
+#' @description
+#' Funkcja zwraca informacje o eksponacie znajdującym się najbliżej kursora.
 #' 
 #' 
 #' @param coords Współrzędne kursora
 #' 
 #' @param slownik Słownik urządzeń
+#' 
+#' @return
+#' Funkcja zwraca dwuelementowy wektor typu string zawierający informacje o nazwie i numerze eksponatu.
 #' 
 #' @export
 #' 

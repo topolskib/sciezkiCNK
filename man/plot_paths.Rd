@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_paths.R
 \name{plot_paths}
 \alias{plot_paths}
-\title{Funkcja służy do rysowania scieżek z danych}
+\title{Rysowanie ścieżek}
 \usage{
 plot_paths(data, slownik, col)
 }
@@ -13,6 +13,6 @@ kolumną total}
 \item{slownik}{ramka danych z kolumnami x i y określającymi współrzedne urządzeń i kolumną nr określającą numer urządzenia}
 }
 \description{
-Funkcja służy do rysowania scieżek z danych
+Funkcja służy do rysowania ścieżek na podstawie danych.
 }
 

@@ -3,7 +3,7 @@
 \docType{data}
 \name{slownik_urz}
 \alias{slownik_urz}
-\title{Zbiór nazw, kodów i współrzędnych na mapie dla odpowiednich stacji}
+\title{Słownik urządzeń}
 \usage{
 data(slownik_urz)
 }

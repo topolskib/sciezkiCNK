@@ -1,4 +1,7 @@
-#' Funkcja służy do rysowania połączeń między punktami
+#' @title Rysowanie połączeń
+#' 
+#' @description 
+#' Funkcja służy do rysowania połączeń między punktami.
 #' 
 #' Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa)
 #' 

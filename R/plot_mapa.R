@@ -1,4 +1,7 @@
-#' Funkcja służy do rysowania planu wystawy Regeneracja
+#' @title Plan wystawy ReGeneracja
+#' 
+#' @description 
+#' Funkcja służy do rysowania planu wystawy Regeneracja.
 #' 
 #' @param sciezka ścieżka dostępu do pliku .png z planem wystawy
 #' @param obram  czy narysować prostokąt wokół planu (domyślnie FALSE)

@@ -1,4 +1,7 @@
-#' Funkcja służy do rysowania scieżek z danych
+#' @title Rysowanie ścieżek (igraph)
+#' 
+#' @description
+#' Funkcja służy do rysowania scieżek z danych za pomocą pekietu `igraph`.
 #' 
 #' @param data ramka danych z kolumnami tekstowymi from i to określającymi urządzenia początkowe i końcowe oraz numeryczną 
 #' kolumną total 

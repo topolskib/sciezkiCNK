@@ -1,6 +1,8 @@
-#' Funkcja służy do rysowania etykiet z numerami urządzeń
+#' @title Rysowanie etykiet z numerami
 #' 
-#' Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa)
+#' @description 
+#' Funkcja służy do rysowania etykiet z numerami urządzeń.
+#' Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa).
 #' 
 #' @param dane_urz ramka danych z kolumnami x i y odpowiadającymi współrzędnym urządzeń oraz kolumną nr - numerem urządzenia
 #' @param przes 2 - el. wektor przesunięcia etykiet, dodatnie wartości oznaczają odpowiednio: w lewo, w dół, ujemne prawo, góra
@@ -8,6 +10,9 @@
 #' @param rozmiary rozmiary planu, na który nanosimy punkty
 #' @param col kolor tekstu etykiet
 #' @param cex wielkość tekstu etykiet
+#' 
+#' @return 
+#' Funkcja nanosi na istniejący wykres etykiety z numerami eksponatów.
 #' 
 #' @export
 

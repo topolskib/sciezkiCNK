@@ -3,7 +3,7 @@
 \docType{data}
 \name{dane_all}
 \alias{dane_all}
-\title{Zbiór scieżek dla każdego dnia i dla poszczególnych godzin}
+\title{Główny zbiór danych}
 \usage{
 data(dane_all)
 }

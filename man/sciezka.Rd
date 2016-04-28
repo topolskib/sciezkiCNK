@@ -2,7 +2,7 @@
 % Please edit documentation in R/sciezki.R
 \name{sciezka}
 \alias{sciezka}
-\title{Funkcja służy do wyznaczani najbardziej popularnej scieżki}
+\title{Wyznaczanie popularnych ścieżek.}
 \usage{
 sciezka(filtered_data, n, first)
 }
@@ -10,6 +10,11 @@ sciezka(filtered_data, n, first)
 \item{filtered_data}{Ramka danych powstała w wyniku użycia funkcji filter_data}
 
 \item{n}{Długość ścieżki}
+
+\item{first}{Numer eksponatu, od którego ma się zaczynać ścieżka.}
+}
+\value{
+Funkcja zwraca ramkę danych z kolejnymi przejściami między stacjami w formacie pasującym do pozostałych danych w pakiecie.
 }
 \description{
 Funkcja służy do wyznaczani najbardziej popularnej scieżki

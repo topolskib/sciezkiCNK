@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_urzadz.R
 \name{plot_urzadz}
 \alias{plot_urzadz}
-\title{Funkcja służy do nanoszenia na mapę punktów odpowiadających urządzeniom}
+\title{Nanoszenie urządzeń}
 \usage{
 plot_urzadz(dane_urz, pch = 19, cex = 2.5, col = "firebrick2",
   rozmiary = c(1018, 886))
@@ -19,6 +19,7 @@ plot_urzadz(dane_urz, pch = 19, cex = 2.5, col = "firebrick2",
 \item{rozmiary}{rozmiary planu, na który nanosimy punkty}
 }
 \description{
+Funkcja służy do nanoszenia na mapę punktów odpowiadających urządzeniom. 
 Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa)
 }
 

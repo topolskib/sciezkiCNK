@@ -1,6 +1,8 @@
-#' Funkcja służy do rysowania etykiet z liczbami nad liniami łączącymi urządzenia
+#' @title Rysowanie etykiet z liczbami 
 #' 
-#' Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa)
+#' @description
+#' Funkcja służy do rysowania etykiet z liczbami nad kreskami łączącymi poszczególne stacje. Wymaga uprzedniego wywołania plot.new 
+#' (np. przez wywołanie funkcji plot_mapa).
 #' 
 #' @param dane_pocz ramka danych z kolumnami x i y odpowiadającymi współrzędnym początkowych urządzeń
 #' @param dane_kon ramka danych z kolumnami x i y odpowiadającymi współrzędnym końcowych urządzeń
@@ -10,6 +12,9 @@
 #' @param rozmiary rozmiary planu, na który nanosimy punkty
 #' @param col kolor tekstu etykiet
 #' @param cex wielkość tekstu etykiet
+#' 
+#' @return 
+#' Funkcja nanosi na wykres etykiety z liczbami według argumentu `wartosci`.
 #' 
 #' @export
 

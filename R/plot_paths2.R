@@ -1,4 +1,7 @@
-#' Funkcja służy do rysowania scieżek z danych
+#' @title Rysowanie ścieżek
+#' 
+#' @description
+#' Funkcja służy do rysowania scieżek z danych. Szybsza wersja funkcji `plot_paths`.
 #' 
 #' @param data ramka danych z kolumnami tekstowymi from i to określającymi urządzenia początkowe i końcowe oraz numeryczną
 #' kolumnętotal 

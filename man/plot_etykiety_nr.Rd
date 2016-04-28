@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_etykiety_nr.R
 \name{plot_etykiety_nr}
 \alias{plot_etykiety_nr}
-\title{Funkcja służy do rysowania etykiet z numerami urządzeń}
+\title{Rysowanie etykiet z numerami}
 \usage{
 plot_etykiety_nr(dane_urz, przes = c(0, 0), cex = 0.7, col = "white",
   rozmiary = c(1018, 886))
@@ -19,7 +19,11 @@ domyślnie etykiety są ustawione na środku linii łączącej punkty}
 
 \item{rozmiary}{rozmiary planu, na który nanosimy punkty}
 }
+\value{
+Funkcja nanosi na istniejący wykres etykiety z numerami eksponatów.
+}
 \description{
-Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa)
+Funkcja służy do rysowania etykiet z numerami urządzeń.
+Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa).
 }
 

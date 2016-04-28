@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_mapa.R
 \name{plot_mapa}
 \alias{plot_mapa}
-\title{Funkcja służy do rysowania planu wystawy Regeneracja}
+\title{Plan wystawy ReGeneracja}
 \usage{
 plot_mapa(png, obram = FALSE, tytul = "Plan wystawy REGENERACJA")
 }
@@ -17,6 +17,6 @@ plot_mapa(png, obram = FALSE, tytul = "Plan wystawy REGENERACJA")
 zwraca 2 - elem. wektor liczbowy z rozmiarami obrazu, którego użyliśmy
 }
 \description{
-Funkcja służy do rysowania planu wystawy Regeneracja
+Funkcja służy do rysowania planu wystawy Regeneracja.
 }
 

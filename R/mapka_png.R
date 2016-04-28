@@ -1,4 +1,8 @@
-#' Mapa CNK
+#' @title Mapa CNK
+#' 
+#' @description 
+#' Plik PNG zawierający mapę wystawy ReGeneracja.
+#' 
 #' @docType data
 #' @keywords datasets
 #' @name mapka_png

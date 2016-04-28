@@ -1,10 +1,15 @@
+#' @title Wyznaczanie popularnych ścieżek.
+#' 
+#' @description 
 #' Funkcja służy do wyznaczani najbardziej popularnej scieżki
 #' 
 #' @param filtered_data Ramka danych powstała w wyniku użycia funkcji filter_data
 #' 
 #' @param n Długość ścieżki
+#' @param first Numer eksponatu, od którego ma się zaczynać ścieżka.
 #' 
-#' 
+#' @return 
+#' Funkcja zwraca ramkę danych z kolejnymi przejściami między stacjami w formacie pasującym do pozostałych danych w pakiecie.
 #' 
 #' @export
 

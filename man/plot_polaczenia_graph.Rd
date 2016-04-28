@@ -2,7 +2,9 @@
 % Please edit documentation in R/plot_polaczenia_graph.R
 \name{plot_polaczenia_graph}
 \alias{plot_polaczenia_graph}
-\title{Funkcja służy do rysowania połączeń między danymi za pomocą dostosowanych strzałek}
+\title{Rysowanie połączeń (igraph) 
+
+Funkcja służy do rysowania połączeń między danymi za pomocą dostosowanych strzałek z pakietu `igraph`.}
 \usage{
 plot_polaczenia_graph(data, rozmiary = c(1018, 886), alpha, slownik,
   czyStrzalki = F, kolLinii = "cyan3", szerLinii = 4, krzywLinii = 0.2,
@@ -36,8 +38,5 @@ plot_polaczenia_graph(data, rozmiary = c(1018, 886), alpha, slownik,
 \item{etykLinii}{etykiety rysowane nad linią}
 
 \item{etykLiniiRozmiar}{rozmiar tych etykiet}
-}
-\description{
-Funkcja służy do rysowania połączeń między danymi za pomocą dostosowanych strzałek
 }
 

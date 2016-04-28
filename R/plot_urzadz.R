@@ -1,5 +1,7 @@
-#' Funkcja służy do nanoszenia na mapę punktów odpowiadających urządzeniom
-#' 
+#' @title Nanoszenie urządzeń
+#'
+#' @description
+#' Funkcja służy do nanoszenia na mapę punktów odpowiadających urządzeniom. 
 #' Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa)
 #' 
 #' @param dane_urz ramka danych z kolumnami x i y odpowiadającymi współrzędnym urządzeń

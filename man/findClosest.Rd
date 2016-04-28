@@ -2,7 +2,7 @@
 % Please edit documentation in R/findClosest.R
 \name{findClosest}
 \alias{findClosest}
-\title{Funkcja zwraca informacje o stacji znajdującej się najbliżej kursora}
+\title{Eksponat najbliższy aktualnej pozycji kursora}
 \usage{
 findClosest(coords, slownik)
 }
@@ -11,7 +11,10 @@ findClosest(coords, slownik)
 
 \item{slownik}{Słownik urządzeń}
 }
+\value{
+Funkcja zwraca dwuelementowy wektor typu string zawierający informacje o nazwie i numerze eksponatu.
+}
 \description{
-Funkcja zwraca informacje o stacji znajdującej się najbliżej kursora
+Funkcja zwraca informacje o eksponacie znajdującym się najbliżej kursora.
 }
 

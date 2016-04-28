@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_paths_graph.R
 \name{plot_paths_graph}
 \alias{plot_paths_graph}
-\title{Funkcja służy do rysowania scieżek z danych}
+\title{Rysowanie ścieżek (igraph)}
 \usage{
 plot_paths_graph(data, slownik)
 }
@@ -13,6 +13,6 @@ kolumną total}
 \item{slownik}{ramka danych z kolumnami x i y określającymi współrzędne urządzeń i kolumną nr określającą numer urządzenia}
 }
 \description{
-Funkcja służy do rysowania scieżek z danych
+Funkcja służy do rysowania scieżek z danych za pomocą pekietu `igraph`.
 }
 

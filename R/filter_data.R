@@ -1,13 +1,20 @@
-#' Funkcja służy do filtrowania danych po miesiącach, dniach tygodnia i godzinach.
+#' @title Selekcja danych
+#' 
+#' @description
+#' Funkcja służy do filtrowania danych po miesiącach, dniach tygodnia i godzinach. Operuje ona bezpośrednio na obiekcie dane_all znajdującym
+#' się w pakiecie.
 #' 
 #' @param weekdays Wektor zawierający numeryczne wartości dni tygodnia,
-#' które chcemy uwzględnić.
+#' które chcemy uwzględnić. Składa się z krańców żądanego zakresu.
 #' 
 #' @param months Wektor zawierający numeryczne wartości miesięcy,
-#' które chcemy uwzględnić.
+#' które chcemy uwzględnić. Składa się z krańców żądanego zakresu.
 #' 
-#' @param hours Wektor dwuelementowy zawierający informacje o przedziale godzin, który chcemy uwzględnić
+#' @param hours Wektor dwuelementowy zawierający informacje o przedziale godzin, który chcemy uwzględnić. 
+#' Składa się z krańców żądanego zakresu.
 #' 
+#' @return 
+#' Funkcja zwraca ramkę danych powstałą po agregacji danych według argumentów wejściowych.
 #' 
 #' @export
 

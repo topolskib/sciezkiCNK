@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_liczby.R
 \name{plot_liczby}
 \alias{plot_liczby}
-\title{Funkcja służy do rysowania etykiet z liczbami nad liniami łączącymi urządzenia}
+\title{Rysowanie etykiet z liczbami}
 \usage{
 plot_liczby(dane_pocz, dane_kon, wartosci, przes = c(-2, -5), cex = 0.9,
   col = "dodgerblue4", rozmiary = c(1018, 886))
@@ -23,7 +23,11 @@ domyślnie etykiety są ustawione na środku linii łączącej punkty}
 
 \item{rozmiary}{rozmiary planu, na który nanosimy punkty}
 }
+\value{
+Funkcja nanosi na wykres etykiety z liczbami według argumentu `wartosci`.
+}
 \description{
-Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa)
+Funkcja służy do rysowania etykiet z liczbami nad kreskami łączącymi poszczególne stacje. Wymaga uprzedniego wywołania plot.new 
+(np. przez wywołanie funkcji plot_mapa).
 }
 

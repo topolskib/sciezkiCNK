@@ -8,7 +8,7 @@
 data(mapka_png)
 }
 \description{
-Mapa CNK
+Plik PNG zawierający mapę wystawy ReGeneracja.
 }
 \keyword{datasets}
 

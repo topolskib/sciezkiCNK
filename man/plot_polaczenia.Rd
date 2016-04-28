@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_polaczenia.R
 \name{plot_polaczenia}
 \alias{plot_polaczenia}
-\title{Funkcja służy do rysowania połączeń między punktami}
+\title{Rysowanie połączeń}
 \usage{
 plot_polaczenia(dane_pocz, dane_kon, wartosci, col = "dodgerblue3",
   lwd = 3.5, rozmiary = c(1018, 886))
@@ -21,6 +21,8 @@ plot_polaczenia(dane_pocz, dane_kon, wartosci, col = "dodgerblue3",
 \item{rozmiary}{rozmiary planu, na który nanosimy punkty}
 }
 \description{
+Funkcja służy do rysowania połączeń między punktami.
+
 Funkcja wymaga uprzedniego wywołania plot.new (np. przez wywołanie funkcji plot_mapa)
 }
 
